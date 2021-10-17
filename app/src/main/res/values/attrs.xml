@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircularRevealAnimatedButton">
+        <attr name="android:minWidth" format="dimension" />
+        <attr name="strokeDrawable" format="reference" />
+        <attr name="solidDrawable" format="reference" />
+        <attr name="android:textColor" format="color" />
+        <attr name="android:animationDuration" format="integer" />
+        <attr name="checked" format="boolean" />
+        <attr name="textChecked" format="string" />
+        <attr name="textUnChecked" format="string" />
+    </declare-styleable>
+</resources>

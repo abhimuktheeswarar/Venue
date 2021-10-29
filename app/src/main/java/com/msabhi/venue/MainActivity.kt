@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val button = findViewById<CircularRevealAnimatedButton>(R.id.button_0)
+        
 
         button.setOnCheckedChangeListener(object :
             CircularRevealAnimatedButton.OnCheckedChangeListener {
